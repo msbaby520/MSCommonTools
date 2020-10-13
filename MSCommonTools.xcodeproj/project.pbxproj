@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D255ADF253585B400470E2B /* UIWindow+CurrentResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D255ADD253585B400470E2B /* UIWindow+CurrentResponder.m */; };
 		3D4621512535345200D12436 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4621502535345200D12436 /* UIColor+Hex.m */; };
 		3DFD1DC5253532020040F996 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD1DC4253532020040F996 /* AppDelegate.m */; };
 		3DFD1DC8253532020040F996 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD1DC7253532020040F996 /* SceneDelegate.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D255ADD253585B400470E2B /* UIWindow+CurrentResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+CurrentResponder.m"; sourceTree = "<group>"; };
+		3D255ADE253585B400470E2B /* UIWindow+CurrentResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+CurrentResponder.h"; sourceTree = "<group>"; };
 		3D46214F2535345200D12436 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		3D4621502535345200D12436 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		3DFD1DC0253532020040F996 /* MSCommonTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSCommonTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +98,8 @@
 		3D46214D253533FA00D12436 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				3D255ADE253585B400470E2B /* UIWindow+CurrentResponder.h */,
+				3D255ADD253585B400470E2B /* UIWindow+CurrentResponder.m */,
 				3D46214F2535345200D12436 /* UIColor+Hex.h */,
 				3D4621502535345200D12436 /* UIColor+Hex.m */,
 			);
@@ -290,6 +295,7 @@
 			files = (
 				3DFD1DCB253532020040F996 /* ViewController.m in Sources */,
 				3D4621512535345200D12436 /* UIColor+Hex.m in Sources */,
+				3D255ADF253585B400470E2B /* UIWindow+CurrentResponder.m in Sources */,
 				3DFD1DC5253532020040F996 /* AppDelegate.m in Sources */,
 				3DFD1DD6253532030040F996 /* main.m in Sources */,
 				3DFD1DC8253532020040F996 /* SceneDelegate.m in Sources */,
